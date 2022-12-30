@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(253, 250, 250);
+}
+
+img {
+    width: 800px;
+    height: 800px;
+}
+
+
+#main-title {
+    
+
+    font-family: 'Times New Roman', Times, serif;
+    
+    text-align: center;
+    font-size: 72px;
+}
+
+.link-container {
+    text-align: center;
+}
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+a:hover {
+    opacity: 0.65;
+
+}
+
+.secondary, .child {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.image-container:hover::after {
+    content: "TESTER";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5); /* semi-transparent black background */
+    color: white; /* white text color */
+
+}
